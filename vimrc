@@ -296,3 +296,7 @@ endif
 
 set laststatus=2
 set noshowmode
+
+" netrw
+
+let g:netrw_banner = 0
