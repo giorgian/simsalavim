@@ -106,6 +106,11 @@ autocmd FileType java setlocal shiftwidth=4 tabstop=4 softtabstop=4
 
 set list listchars=tab:»·,trail:·
 
+" Whitespace
+
+autocmd BufWritePre * %s/\s\+$//e
+
+
 " Completion
 
 set wildmode=list:longest,full
